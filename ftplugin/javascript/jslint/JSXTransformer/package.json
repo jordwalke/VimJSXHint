@@ -3,7 +3,7 @@
   "description": "Just setting up dependencies to install",
   "dependencies": {
     "jstransform": "1.1.2",
-    "react": "0.9.0",
+    "react-tools": "0.9.0",
     "jstransform": "3.0.0"
   }
 }
