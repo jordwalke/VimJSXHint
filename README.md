@@ -11,7 +11,7 @@ Which is why the top level license is copied from there. Within this repo, there
 **Installation**
 
 - Install Node.js
-- Put this in your `.vimrc`:  let g:jsCommand='node'
+- Put this in your `.vimrc`:  `let g:jsCommand='node'`
 - Install using `Vundle` or `NeoBundle`.
 
 
