@@ -5,7 +5,7 @@ Inline JSHint error highlighting with support for JSX
 
 The vim plugin is based on:
 https://github.com/hallettj/jslint.vim
-Which is why the top level license is copied from there. Within this repo, there are subprojects that have and retain their own licensing. Most of the JS is a direct copy of the Facebook JS transform stack and jshint itself.
+Which is why the top level license is copied from there. Within this repo, there are subprojects that have and retain their own licensing. Most of the JS is a direct copy of the Facebook JS transform stack and jshint itself, each of which include the license that apply to those particular projects.
 
 
 **Installation**
@@ -22,7 +22,7 @@ Which is why the top level license is copied from there. Within this repo, there
         NeoBundle 'jordwalke/JSXVimHint'
 
 
-Then open a JS file edit it, save it and any lint errors should appear.
+Then open a JS file edit it, save it and any lint errors should appear, underlined in red.
 
 **Support**
 
