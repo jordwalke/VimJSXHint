@@ -172,7 +172,8 @@ function! s:JSLint()
   endif
 
   " Redirect stderror to stdout (doesn't seem to be working)
-  let processed = oneLintLintRc . system(s:transformCmd." 2>&1", lines . "\n")
+  " Must wrap file in function to scope the JSHint rules.
+  let processed = "function scopedJSHint(){".oneLintLintRc . system(s:transformCmd." 2>&1", lines . "\n") . "}"
   if v:shell_error
     " TODO: Get the output and line number the transformer fails on and use that
     " as lint error.
@@ -312,4 +313,3 @@ if !exists("*s:ActivateJSLintQuickFixWindow")
         endif
     endfunction
 endif
-
