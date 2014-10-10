@@ -313,3 +313,4 @@ if !exists("*s:ActivateJSLintQuickFixWindow")
         endif
     endfunction
 endif
+
