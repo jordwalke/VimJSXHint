@@ -3,7 +3,7 @@
 var JSHINT = require('./jshint-r12/jshint.js').JSHINT;
 if (typeof require != 'undefined') {
     JSLINT = require('./jslint-core').JSLINT;
-    print = require('sys').puts;
+    print = console.log.bind(console);
 } else {
     load('jslint-core.js');
 }
