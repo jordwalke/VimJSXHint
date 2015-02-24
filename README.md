@@ -8,7 +8,7 @@ Inline JSHint error highlighting with support for JSX.
 
 **Installation**
 
-- Install Node.js
+- Install Node.js (stable: 0.10.x. 0.11.x seems to have some (albeit cosmetic) errors in the minibuffer)
 - Put this in your `.vimrc`:  `let g:jsCommand='node'`
 - Install using `Vundle` or `NeoBundle`.
 
